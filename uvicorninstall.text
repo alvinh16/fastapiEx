@@ -1,0 +1,16 @@
+alvinh@lenovoU4170:/home/alvinh/Documents/Python/fastapiEx $ pip3 install uvicorn
+Defaulting to user installation because normal site-packages is not writeable
+Collecting uvicorn
+  Downloading uvicorn-0.20.0-py3-none-any.whl (56 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.9/56.9 kB 396.3 kB/s eta 0:00:00
+Collecting h11>=0.8
+  Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.3/58.3 kB 1.9 MB/s eta 0:00:00
+Requirement already satisfied: click>=7.0 in /usr/lib/python3/dist-packages (from uvicorn) (8.0.3)
+Installing collected packages: h11, uvicorn
+Successfully installed h11-0.14.0 uvicorn-0.20.0
+
+[notice] A new release of pip available: 22.3.1 -> 23.0
+[notice] To update, run: python3 -m pip install --upgrade pip
+
+

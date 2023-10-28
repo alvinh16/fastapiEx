@@ -1,0 +1,33 @@
+alvinh@lenovoU4170:/home/alvinh/Documents/Python/fastapiEx $ python3 --version
+Python 3.10.6
+alvinh@lenovoU4170:/home/alvinh/Documents/Python/fastapiEx $ pip3 install virtualenvwrapper
+Defaulting to user installation because normal site-packages is not writeable
+Collecting virtualenvwrapper
+  Downloading virtualenvwrapper-4.8.4.tar.gz (334 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 334.9/334.9 kB 2.2 MB/s eta 0:00:00
+  Preparing metadata (setup.py) ... done
+Collecting stevedore
+  Downloading stevedore-4.1.1-py3-none-any.whl (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.0/50.0 kB 3.2 MB/s eta 0:00:00
+Requirement already satisfied: virtualenv in /home/alvinh/.local/lib/python3.10/site-packages (from virtualenvwrapper) (20.17.1)
+Collecting virtualenv-clone
+  Downloading virtualenv_clone-0.5.7-py3-none-any.whl (6.6 kB)
+Collecting pbr!=2.1.0,>=2.0.0
+  Using cached pbr-5.11.1-py2.py3-none-any.whl (112 kB)
+Requirement already satisfied: distlib<1,>=0.3.6 in /home/alvinh/.local/lib/python3.10/site-packages (from virtualenv->virtualenvwrapper) (0.3.6)
+Requirement already satisfied: platformdirs<3,>=2.4 in /home/alvinh/.local/lib/python3.10/site-packages (from virtualenv->virtualenvwrapper) (2.6.2)
+Requirement already satisfied: filelock<4,>=3.4.1 in /home/alvinh/.local/lib/python3.10/site-packages (from virtualenv->virtualenvwrapper) (3.9.0)
+Building wheels for collected packages: virtualenvwrapper
+  Building wheel for virtualenvwrapper (setup.py) ... done
+  Created wheel for virtualenvwrapper: filename=virtualenvwrapper-4.8.4-py2.py3-none-any.whl size=24855 sha256=ec1aad762de44f010adfa6aa3d32e33e5f998050c780b7c9df2dedb4a90c5db0
+  Stored in directory: /home/alvinh/.cache/pip/wheels/ae/9c/dd/513e674faa97f3ac6dfda663b7bb5d23df9019258e871bb6d4
+Successfully built virtualenvwrapper
+Installing collected packages: virtualenv-clone, pbr, stevedore, virtualenvwrapper
+Successfully installed pbr-5.11.1 stevedore-4.1.1 virtualenv-clone-0.5.7 virtualenvwrapper-4.8.4
+
+[notice] A new release of pip available: 22.3.1 -> 23.0
+[notice] To update, run: python3 -m pip install --upgrade pip
+alvinh@lenovoU4170:/home/alvinh/Documents/Python/fastapiEx $ mkvirtualenv fastexenv
+zsh: command not found: mkvirtualenv
+
+
